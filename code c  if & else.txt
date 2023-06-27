@@ -1,0 +1,11 @@
+int main()
+{
+    char ch;
+    printf("enter the letter: ");
+    scanf("%c",&ch);
+    if(ch>='A'&&ch<='Z')
+    printf("uppercase");
+    else
+    printf("lowercase");
+    
+}

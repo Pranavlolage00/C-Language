@@ -1,0 +1,12 @@
+int main()
+{
+    float c,s;
+    printf("enter cost price :");
+    scanf("%f",&c);
+    printf("enter seling price :");
+    scanf("%f",&s);
+    if(s>c)
+         printf("profit=%f",s-c);
+    else
+        printf("loss=%f",c-s);
+}

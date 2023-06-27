@@ -1,0 +1,11 @@
+int main()
+{
+    char ch;
+    printf(" enter the charectar :");
+    scanf("%c",&ch);
+    if((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='b'))
+     printf("letter");
+     else
+     printf("not a letter");
+     
+}

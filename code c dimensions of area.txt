@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    float rw,rl,rh,dl,dh,wl,wh,pa,wwa;
+    printf("enter the dimensions of room(l,w,h)in order:\n");
+    scanf("%f%f%f",&rl,&rw,&rh);
+    printf("enter the dimensions of door(l,h)in order:\n");
+    scanf("%f%f",&dl,&dh);
+    printf("enter the dimensions of window(l,h)in order:\n");
+    scanf("%f%f",&wl,&wh);
+     pa=4*rl*rh-dl*dh-2*wl*wh;
+     wwa=rl*rw;
+     printf("area to be printed:\t%f\n",pa);
+     printf("area to be whitewashed:\t%f\n",wwa);
+}

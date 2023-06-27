@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int rs,t,f;
+    printf("enter the amount");
+    scanf("%d",&rs);
+    t=rs/10;
+    rs=rs%10;
+    f=rs/5;
+    rs=rs%5;
+    printf("10 rs. note=%d",t);
+    printf("/n 5  rs. note=%d",f);
+    printf("/n 1 rs . note=%dd",rs);
+}

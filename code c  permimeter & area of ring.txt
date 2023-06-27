@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    float out_r,in_r,a,p;
+    scanf("%f",&in_r);
+    printf("enter the inner radius of ring");
+    printf("enter the outer radius of ring");
+    scanf("%f",&out_r);
+     p=(2*3.14)*(in_r);
+     a=3.14*(in_r*in_r)+(out_r*out_r);
+     printf("area of circle:%f",a);
+     printf("\nperimeter of circle:%f",p);
+}

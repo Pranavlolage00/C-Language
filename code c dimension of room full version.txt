@@ -1,0 +1,12 @@
+float   room_width, room_length, room_hight, door_length, door_hight, window_length, window_hight, paint_area_whitewash_area;
+    printf("enter the dimensions of room(length,width,hight)in order:\n");
+    scanf("%f%f%f",&room_length,&room_width,&room_hight);
+    printf("enter the dimensions of door(length,hight)in order:\n");
+    scanf("%f%f",&door_length,&door_hight);
+    printf("enter the dimensions of window(length,hight)in order:\n");
+    scanf("%f%f",&window_length,&window_hight);
+        paint_area=4*room_length*room_hight door_length*door_hight 2*window_length*window_hight;
+        whitewash_area=room_length*room_width;
+    printf("area to be painted:\t%f\n",paint area);
+    printf("area to be whitewashed:\t%f\n",whitewash area);
+}

@@ -1,0 +1,12 @@
+int main()
+{
+    char ch;
+    //input charector
+    printf("enter the charector: ");
+    scanf("%c",&ch);
+    
+    printf("ASCII is = %d\n",ch);
+    return 0;
+    
+     
+}

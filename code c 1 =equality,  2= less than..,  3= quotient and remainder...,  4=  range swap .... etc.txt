@@ -1,0 +1,43 @@
+int main()
+{
+    int x,y,t,ch;
+    printf("enter no 1 :");
+    scanf("%d",&x);
+     printf("enter no 2 :");
+    scanf("%d",&y);
+    printf("\n 1-equlity \n 2-less than \n 3- quotient and riminder ");
+    printf("\n 4-range \n 5- swap \n enter  the choice");
+    scanf("%d",&ch);
+    switch(ch)
+    {
+        case 1 :if(x==y)
+                printf("equal");
+                else
+                printf("not equal");
+                break;
+        case 2 : if(x<y)
+                 printf("less number=%d",x);
+                 else
+                 printf("less number=%d",y);
+                 break;
+        case 3 : printf("\n quotient=%d",x/y);
+                 printf("\n reminder=%d",x%y);
+                 break;
+        case 4 :if(x>y)
+                printf("range=%d",x-y);
+                else
+                printf("range=%d",y-x);
+                break;
+        case 5 : t=x;
+                 x=y;
+                 y=t;
+                 printf("\n x=%d",x);
+                 printf("\n y=%d",y);
+                 break;
+        default : printf("invalid choice");
+        
+                 
+    }
+    
+    
+}

@@ -1,0 +1,35 @@
+int main()
+{
+    int science;
+    int math;
+    int english;
+    
+    int total;
+    float per;
+    
+    science = 100;
+    math = 100;
+    english = 100;
+    
+    total = science + math + english;
+     per=  (float)total*100/300;
+    printf("total marks: %d\n",total);
+    printf("percentage is :%.2f\n",per);
+    
+    if(per>=60)
+    {
+        printf("first division\n");
+    }
+    else if(per>=50)
+    {
+        printf("second division");
+    }
+    else if(per>=40);
+    {
+        printf("third division");
+    }
+    else
+    {
+        printf("fail\n");
+    }
+}

@@ -1,0 +1,23 @@
+int main()
+{
+    char ch;
+    printf("enter the charectar: ");
+    scanf("%c",&ch);
+    if(ch>='A'&&ch<='Z')
+    {
+        printf("charectar is uppercase : ");
+    }
+    else if(ch>='a'&&ch<='z')
+    {
+        printf("charectar is lowercase : ");
+    
+    }
+    else if(ch>='0'&&ch<='9')
+    {
+        printf("charectar is digit : ");
+    }
+    else
+    {
+        printf("charectar is symbol : ");
+    }
+}

@@ -1,0 +1,27 @@
+int main()
+{
+    int a,b,c,ch;
+    printf("enter the first number: ");
+    scanf("%d",&a);
+    printf("enter the second number: ");
+    scanf("%d",&b);
+    printf("\n 1=add 2=sub 3=multi 4=div");
+    printf("enter the choice: ");
+    scanf("%d",&ch);
+    switch(ch)
+    {
+        case 1: c=a+b;
+                printf("addition=%d",c);
+                break;
+        case 2: c=a-b;
+                printf("substraction=%d",c);
+                break;
+        case 3: c=a*b;
+                printf("multiplication=%d",c);
+                break;
+        case 4: c=a/b;
+                printf("division=%d",c);
+                break;
+        default: printf("invalid choice");        
+    }
+}

@@ -1,0 +1,29 @@
+int main ()
+{
+    int a,b,c,ch,
+    float ar,hr;
+    printf("enter the 1 no :");
+    scanf("%d",&a);
+    printf("enter the 2 no :");
+    scanf("%d",&b);
+    printf("\n 1-swap \n 2-arethmatic mean \n 3- harmonic mean");
+    scanf("%d",&ch);
+    switch(ch)
+    {
+        case 1:c=a;
+               a=b;
+               b=c;
+               printf("\n a=%d",a);
+               printf("\n b=%d",b);
+               break;
+        case 2:ar=a+b/2;
+               printf("arethmetic mean=%f",ar);
+               break;
+        case 3:hr=a*b/a*b;
+               printf("harmonic mean=%f",hr);
+               break;    
+        default:printf("invalid choice");                                                  
+
+    }
+
+}
